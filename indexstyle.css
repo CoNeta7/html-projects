@@ -60,10 +60,6 @@ header nav ul li a {
     color: white;
 }
 
-.hamburger-state {
-    /* visibility: hidden; */
-
-}
 
 
 .head {
@@ -241,7 +237,6 @@ header nav ul li a {
     position: relative;
     padding: 20px;
     background-color: initial;
-    /* height: 70vh; */
     background-color: rgba(184, 206, 192, 0.937)
 }
 

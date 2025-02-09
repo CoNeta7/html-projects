@@ -10,11 +10,7 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
-/* 
-להוסיף המבורגר 
-הוספת תמונת רקע קווים
-להוסיף אייקון למטה בפוטר
- */
+
 
 .box {
     padding:
@@ -79,8 +75,7 @@ section {
 
 section h1 {
     font: normal normal 900 80px/118px Heebo;
-    /*   font-family: 'Heebo', sans-serif;
-    font-weight: normal; */
+
     font-size: 3rem;
     text-align: center;
 }

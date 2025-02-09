@@ -31,8 +31,7 @@ h2 {
     padding: 1rem;
     padding-top: 0.5rem;
     font-family: "Varela Round", serif;
-    /*     font-family:למצוא את הפונט;
- */
+
 }
 
 p {
@@ -74,6 +73,6 @@ input {
 .field-submit>button {
     font-size: 1rem;
     height: 1.5rem;
-    /* background-color: rgba(249, 249, 249, 0.3); */
+
     border: 1px solid #FFFFFF;
 }
