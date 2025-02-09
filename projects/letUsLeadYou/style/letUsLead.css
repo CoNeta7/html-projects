@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Satisfy&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    height: 100vh;
+    background-image: url(../images/Path15.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+.form-container {
+    position: relative;
+    left: 57%;
+    top: 15%;
+    width: 27vw;
+    height: 70vh;
+    padding: 1rem;
+    background-color: rgba(26, 26, 26, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+.form-container section h1 {
+    font-size: 1.7rem;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+.form-container section p {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-size: 0.7rem;
+}
+
+.form-container input {
+    font-size: 1.9vw;
+}
+
+.inputBox {
+    font-size: 0.6rem;
+    font-style: bold;
+    font-family: Heebo;
+    text-align: right;
+
+}
+
+button {
+    background-color: #D31C75;
+    color: #FFFFFF;
+    width: 9vw;
+    height: 7vh;
+}
+
+@media (max-width:450px) {
+    .main {
+        flex-direction: column;
+
+    }
+}
+
+/* לעבור על רספונסיוביות  */

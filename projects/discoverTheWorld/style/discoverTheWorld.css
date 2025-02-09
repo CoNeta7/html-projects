@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+img:nth-child(1) {
+    grid-area: item1;
+}
+
+img:nth-child(2) {
+    grid-area: item2;
+}
+
+img:nth-child(3) {
+    grid-area: item3;
+}
+
+img:nth-child(4) {
+    grid-area: item4;
+}
+
+img:nth-child(5) {
+    grid-area: item5;
+}
+
+img:nth-child(6) {
+    grid-area: item6;
+}
+
+img:nth-child(7) {
+    grid-area: item7;
+}
+
+img:nth-child(8) {
+    grid-area: item8;
+}
+
+img:nth-child(9) {
+    grid-area: item9;
+}
+
+img:nth-child(10) {
+    grid-area: item10;
+}
+
+img:nth-child(11) {
+    grid-area: item11;
+}
+
+img:nth-child(12) {
+    grid-area: item12;
+}
+
+img:nth-child(13) {
+    grid-area: item13;
+}
+
+img:nth-child(14) {
+    grid-area: item14;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "item1 item2 item-h item-h"
+        "item3 item4 item-h item-h"
+        "item5 item6 item7 item8"
+        "item-form item-form item9 item10"
+        "item-form item-form item11 item12"
+        "item-form item-form item13 item14"
+    ;
+    gap: 1rem;
+    background-color: #E5EEFF;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    padding: 10rem;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    grid-area: item-h;
+    background-color: #020253;
+    color: #FFFFFF;
+}
+
+.head-container>h2 {
+    color: #0EE1DA;
+}
+
+
+.form-container {
+    grid-area: item-form;
+    background-color: #8E097C;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 0.2rem;
+}
+
+.inputBox>input,
+.inputBox>button,
+.inputBox>textarea {
+    width: 30vw;
+}
+
+.inputBox>label {
+    color: #0EE1DA;
+}
+
+.inputBox>input {
+    background-color: #F6F6F6;
+    border: none;
+    border-bottom: 2px solid #0EE1DA;
+    font-size: 1.5vw;
+    height: 2rem;
+}
+
+.inputBox>textarea {
+    height: 6rem;
+}
+
+.inputBox>button {
+    background-color: #0EE1DA;
+    color: #000000;
+    border: none;
+    height: 2rem;
+}

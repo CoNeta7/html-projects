@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela+Round&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    color: #3a3535;
+}
+
+header {
+
+    background-color: rgb(61, 61, 60);
+    direction: rtl;
+    display: flex;
+}
+
+header img {
+    width: 60px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+header nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+
+    line-height: 2;
+
+}
+
+header nav ul li {
+    text-align: center;
+    display: block;
+    margin: 0 15px;
+
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.hamburger-state {
+    /* visibility: hidden; */
+
+}
+
+
+.head {
+    position: relative;
+    padding: 20px;
+    background-color: initial;
+    height: 45vh;
+}
+
+.head-image {
+    background-image: url(images/mainbgc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+    opacity: 1;
+}
+
+.head-text>h1 {
+    font-size: 2.5em;
+}
+
+.icon {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.about-me>img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.about-me>a:hover,
+.about-me input:hover {
+    cursor: pointer;
+}
+
+.about-me>p {
+    padding-bottom: 20px;
+}
+
+.about-me input {
+    background-color: #363736;
+    border-radius: 50px 50px 50px 50px;
+    width: 12rem;
+    padding: 0.3rem;
+    font-size: larger;
+    border: none;
+    outline: none;
+    color: rgb(236, 232, 224);
+}
+
+.icon>img {
+    width: 8vw;
+}
+
+.about-me {
+    padding: 1rem;
+    background-color: #c5b6be;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 70vh;
+
+}
+
+
+
+.about-me h2 {
+    font-size: 2rem;
+    padding: 20px;
+
+}
+
+.cardsection {
+    background-color: rgb(244, 244, 239);
+    padding: 2rem;
+    text-align: center;
+}
+
+.cardsection h3 {
+    font-size: 1.5rem;
+}
+
+.cardsection p {
+    font-size: 0.8rem;
+}
+
+.container {
+    justify-content: center;
+    background-color: rgb(244, 244, 239);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 1rem;
+}
+
+
+.card {
+    background-color: white;
+    width: 25%;
+    height: 75vh;
+    margin: 5px;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 5px;
+    direction: rtl;
+}
+
+.card img {
+    width: 100%;
+    height: 15vw;
+}
+
+.card h3 {
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+.card p {
+    padding: 1rem;
+
+    font-size: 1rem;
+}
+
+.card .projectIcon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card .projectIcon img {
+    width: 2vw;
+    height: 2vw;
+
+}
+
+.btn {
+    text-decoration: none;
+    color: #343434;
+    padding: 0.2rem;
+    background-color: #94baa3;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+
+}
+
+.cardBtn {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus {
+    position: relative;
+    padding: 20px;
+    background-color: initial;
+    /* height: 70vh; */
+    background-color: rgba(184, 206, 192, 0.937)
+}
+
+.contactimg {
+    background-image: url(images/contactbgc2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.contactus-form {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    position: relative;
+    z-index: 4;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #363736;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #40634d;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #c5b6be;
+    padding: 1rem;
+    color: #343434;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.social-item img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.social-item:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.social-item p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+.social-item a {
+    text-decoration: none;
+    color: #343434
+}
+
+.social-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+
+    background-color: rgb(61, 61, 60);
+    color: white;
+    direction: rtl;
+    height: 10vw
+}
+
+@media (max-width: 768px) {
+    .home-nav {
+        margin: 0;
+        position: absolute;
+        top: 10vh;
+        right: 0px;
+    }
+
+    .home-nav>ul {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(61, 61, 60);
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+}
+
+/* לסדר את הטופס הראשי שיהיה אפשר לשים עליו את העכבר */
+
+/* לעשות שהסושיאל יהיה לחיץ
+ */
+/* לסדר את ההמבורגר  */

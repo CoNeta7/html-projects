@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('../images/envelopebgc2.png');
+    height: 100vh;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container section {
+    padding: 20vh;
+    font-family: 'Assistant', sans-serif;
+}
+
+.container section h1 {
+    color: #D3E10E;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 5vh;
+
+}
+
+.container section p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.6rem;
+}
+
+.form {
+    direction: rtl;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.7rem;
+
+}
+
+.form .inputBox {
+    display: flex;
+    flex-direction: column;
+    color: #011560;
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+
+
+
+}
+
+input {
+    background-color: #F6F6F6;
+    border: none;
+    border-bottom: 2px solid #D3E10E;
+    font-size: 1.5vw;
+}
+
+
+.button-container {
+    justify-content: end;
+}
+
+.button-container>button {
+
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: 'Assistant', sans-serif;
+    background-color: #D3E10E;
+    color: #011560;
+    border: none;
+    width: 10vw;
+    height: 3.5vh;
+
+}

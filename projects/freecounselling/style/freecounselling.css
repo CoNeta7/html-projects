@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* נשאר לסדר את הטופס אחד ליד השני
+ */
+
+body {
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Heebo', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+img {
+    height: 100vh;
+    width: 30vw;
+    padding: 2rem
+}
+
+section {
+
+
+    margin-right: 3rem;
+    width: 60vw;
+
+
+}
+
+section h1 {
+    color: #FDBD03;
+    font-size: 2rem;
+}
+
+p {
+    color: #020253;
+    font-size: 1rem;
+
+}
+
+form {
+    margin-top: 2rem;
+    color: #2C2C2C;
+
+}
+
+.inputboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 0.2rem;
+    background-color: #E5EEFF;
+    width: 24vw;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #FDBD03;
+
+
+}
+
+
+form textarea {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 25vh;
+    border: none;
+    border-bottom: 3px solid #FDBD03;
+    background-color: #E5EEFF;
+}
+
+#btn {
+    background-color: #FDBD03;
+    color: #000000;
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    width: 8vw;
+}
